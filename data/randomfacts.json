@@ -1,0 +1,135 @@
+{
+ "facts": [
+		{
+			"fact": "Earth is the only planet with life on it (that we know of).",
+			"question": "Which planet has life (that we know of)?",
+			"answers": ["earth"]
+		},
+
+		{
+			"fact": "Mercury, Venus, Earth, Mars, and Jupiter have no rings.",
+			"question": "Which planets have no rings?",
+			"answers": ["mercury", "venus", "earth", "mars", "jupiter"]
+		},
+
+		{
+			"fact": "Saturn has the brightest rings",
+			"question": "Which planet has the brightest rings?",
+			"answers": ["saturn"]
+		},
+
+		{
+			"fact": "Uranus and Neptune have rings, but they are dim.",
+			"question": "Which planet has dim rings?",
+			"answers": ["uranus", "neptune"]
+		},
+
+		{
+			"fact": "Mercury and Venus have no moons.",
+			"question": "Which planet has no moons?",
+			"answers": ["mercury", "venus"]
+		},
+
+		{
+			"fact": "Mercury has no atmosphere (air).",
+			"question": "Which planet has no atmosphere?",
+			"answers": ["mercury"]
+		},
+
+		{
+			"fact": "Jupiter is the biggest planet in our solar system.",
+			"question": "What is the biggest planet in out solar system?",
+			"answers": ["jupiter"]
+		},
+
+		{
+			"fact": "Mercury is the smallest planet in our solar system.",
+			"question": "What is the smallest planet in out solar system?",
+			"answers": ["mercury"]
+		},
+
+		{
+			"fact": "Jupiter, Saturn, Uranus and Neptune are known as gas giants because they are made of gas.",
+			"question": "Which planets are gas giants?",
+			"answers": ["jupiter", "saturn", "uranus", "neptune"]
+		},
+
+		{
+			"fact": "Mercury, Venus, Earth and Mars have solid surfaces (they are \"terrestrial\").",
+			"question": "Which planets have a solid surface (terrestrial)?",
+			"answers": ["mercury", "venus", "earth", "mars"]
+		},
+
+		{
+			"fact": "Mercury, Earth and Mars have molten metal cores.",
+			"question": "Which planet has a molten metal core?",
+			"answers": ["mercury", "earth", "mars"]
+		},
+
+		{
+			"fact": "Uranus and Neptune are known as ice giants because there cores are made of ice",
+			"question": "Which planet is an ice giant (has an ice core)?",
+			"answers": ["uranus", "neptune"]
+    },
+    
+		{
+			"fact": "Venus and Uranus spin backwards. The sun rises in the west, and sets in the east.",
+			"question": "Which planet spins backwards?",
+			"answers": ["venus", "uranus"]
+		},
+
+		{
+			"fact": "Uranus rotates on its side.",
+			"question": "Which planet rotates sideways?",
+			"answers": ["uranus"]
+		},
+
+		{
+			"fact": "Neptune is the windiest planet, where wind speeds can reach 2,000 kilometers per hour.",
+			"question": "What is the windiest planet?",
+			"answers": ["neptune"]
+		},
+
+		{
+			"fact": "Mars is red because iron mineral on the surface are rusting (oxidizing).",
+			"question": "Which planet gets its color from iron minerals rusting (oxidizing)?",
+			"answers": ["mars"]
+		},
+
+		{
+			"fact": "Mars has two moons called Phobos and Deimos.",
+			"question": "Which planet has two moons called Phobos and Deimos?",
+			"answers": ["mars"]
+		},
+
+		{
+			"fact": "The red spot on Jupiter is a giant storm.",
+			"question": "Which planet has a red spot that is a giant storm?",
+			"answers": ["jupiter"]
+		},
+
+		{
+			"fact": "Juptier has 67 known moons, the most out of all the planets.",
+			"question": "Which planet has 67 moons?",
+			"answers": ["jupiter"]
+		},
+
+		{
+			"fact": "Saturn has 62 moons.",
+			"question": "Which planet has 62 moons?",
+			"answers": ["saturn"]
+		},
+
+		{
+			"fact": "The gas giants (Jupiter, Saturn, Uranus and Neptune) are mostly made of hydrogen and helium gas.",
+			"question": "Which planet is made of mostly hydrogen and helium?",
+			"answers": ["jupiter", "saturn", "uranus", "neptune"]
+		},
+
+		{
+			"fact": "The ice giants (Uranus and Neptune) are mostly made of water, ammonia and methane.",
+			"question": "Which gas planet is also made of water, ammonia and methane?",
+			"answers": ["uranus", "neptune"]
+		}
+	]
+}
