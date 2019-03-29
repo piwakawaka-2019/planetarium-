@@ -43,16 +43,16 @@ router.get('/planets/edit/:planet', (req, res) => {
 
   let Id = req.params.planet
 
-  fs.readFile('./data/planetinfo.json', 'utf8', (err, data) => {
-    if (err) console.log(err)
-    console.log(data)
-    let planetDetails = JSON.parse(data)
-    console.log(planetDetails)
+fs.readFile('./data/planetinfo.json', 'utf8', (err, data) => {
+  if (err) console.log(err)
+  console.log(data)
+  let planetDetails = JSON.parse(data)
+  console.log(planetDetails)
 
-    let single = planetDetails.planets.find((item) => item.planet == Id)
-    console.log(single)
-    res.render('planets/edit', single)
-  })
+  let single = planetDetails.planets.find((item) => item.planet == Id)
+  console.log(single)
+  res.render('planets/edit', single)
+})
 })
 
 module.exports = router
