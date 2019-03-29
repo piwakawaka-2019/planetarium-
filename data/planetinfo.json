@@ -23,9 +23,9 @@
         },
         {
             "planet": "Mars",
-            "moons": 0,
-            "diameter": 6792,
-            "distanceFromSun": 227.9,
+            "moons": 80,
+            "diameter": "6792",
+            "distanceFromSun": "227.9",
             "images": "../images/mars.png"
         },
         {

@@ -1,4 +1,28 @@
-<form method="post" action="/planets/edit/{{planets}}">
-  <input type="text" name="comment">
+<form method="post" action='/planets/edit/{{planet}}' class="form">
+ 
+
+
+  <label for="moons" class="form-item">
+  Moons:
+  <input type="text" name="moons" value="{{moons}}">
+
+  {{!-- <input type="submit" value="Submit"> --}}
+  </label>
+
+
+
+  <label for="diameter" class="form-item">
+    Diameter:
+    <input type="text" name="diameter" value="{{diameter}}">
+
+    {{!-- <input type="submit" value="Submit"> --}}
+  </label>
+
+
+  <label for="distanceFromSun" class="form-item">
+    Distance from sun:
+    <input type="text" name="distanceFromSun" value="{{distanceFromSun}}">
+
+  </label>
   <input type="submit" value="Submit">
 </form>
