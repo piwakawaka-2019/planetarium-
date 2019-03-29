@@ -109,13 +109,29 @@ li {
 button {
   display: inline;
   position: absolute; bottom: 250px; left: 1150px;
-  background-color: transparent;
-  color: white
+  background-color: white;
+  color: white;
   font-family: 'Press Start 2P', cursive;
   font-size:30px;
   padding: 10px 13px 10px 13px;
+
 }
 
 button:hover{
   cursor: url('./images/rocket.png'), auto;
 }
+
+form {
+  color: white;
+  text-align: center;
+  margin: 150px;
+
+}
+
+input {
+  font-size: 16px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px;
+  margin: 20px;
+}
+
