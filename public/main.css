@@ -1,0 +1,81 @@
+body {
+  /* font-family: 'Bungee Shade', cursive; */
+  font-family: 'Press Start 2P', cursive;
+  background-image: url('./images/bg.jpg');
+  background-color: black;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white
+
+}
+
+.footer {
+  background-color: rgb(43, 226, 171);
+  padding: 20px;
+  position: fixed; bottom: 0; right: 0;
+}
+
+/* .vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+
+.planet {
+  display: inline-block;
+  margin: 10px;
+  max-width: 200px;
+}
+
+.sun {
+  display: inline-block;
+  margin: 10px;
+  max-width: 350px;
+  position: relative; top: 100px;
+}
+
+.Mercury {
+  max-width: 70px;
+}
+
+.Venus {
+  max-width: 100px;
+}
+
+.Earth {
+  max-width: 120px;
+}
+
+.Mars {
+  max-width: 90px;
+}
+
+
+.Jupiter {
+  max-width: 190px;
+  position: relative; top: 30px;
+}
+
+.Saturn {
+  max-width: 270px;
+  position: relative; top: 10px;
+}
+
+.Uranus {
+  max-width: 140px;
+}
+
+.Neptune {
+  max-width: 120px;
+}
+
+.Pluto {
+  max-width: 30px;
+  position: relative; bottom: 30px;
+}
+
