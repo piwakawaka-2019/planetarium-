@@ -4,8 +4,6 @@ const hbs = require('express-handlebars')
 const server = express()
 const planetRoutes = require('./routes')
 
-server.use('/', planetRoutes)
-
 server.engine('hbs', hbs({
   defaultLayout: 'main',
   extname: 'hbs'
