@@ -1,3 +1,7 @@
+
+html {
+  cursor: url('./images/rocket.png'), auto;
+}
 body {
   /* font-family: 'Bungee Shade', cursive; */
   font-family: 'Press Start 2P', cursive;
@@ -7,6 +11,17 @@ body {
 
 h1 {
   font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+h1:hover {
+  cursor: url('./images/rocket.png'), auto;
+
+}
+
+h4 {
+  font-size: 20px;
   text-align: center;
   color: white
 
@@ -18,18 +33,13 @@ h1 {
   position: fixed; bottom: 0; right: 0;
 }
 
-/* .vertical-center {
-  margin: 0;
-  position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-} */
-
 .planet {
   display: inline-block;
   margin: 10px;
   max-width: 200px;
+}
+.planet:hover {
+  cursor: url('./images/astronaut.png'), auto;
 }
 
 .sun {
@@ -79,3 +89,33 @@ h1 {
   position: relative; bottom: 30px;
 }
 
+.profilePlanet {
+  display: inline-block;
+  max-width: 900px;
+  position: absolute;
+}
+
+.content {
+  display: inline;
+  position: absolute; bottom: 400px; left: 900px;
+  color: white;
+  font-size:30px;
+}
+
+li {
+  font-size: 20px;
+}
+
+button {
+  display: inline;
+  position: absolute; bottom: 250px; left: 1150px;
+  background-color: transparent;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size:30px;
+  padding: 10px 13px 10px 13px;
+}
+
+button:hover{
+  cursor: url('./images/rocket.png'), auto;
+}
