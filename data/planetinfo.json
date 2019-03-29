@@ -56,7 +56,7 @@
       "images": "../images/neptune.png"
   },
   {
-      "planet": "Pluto(Dwarf-Planet)",
+      "planet": "Pluto",
       "moons": 5,
       "diameter": 2370,
       "distanceFromSun": 5906.4,
