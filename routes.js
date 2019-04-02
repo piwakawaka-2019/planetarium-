@@ -22,7 +22,8 @@ router.get('/', (req, res) => {
   })
 })
 
-router.get('/planets/:planet', (req, res) => {
+//
+router.get('/planets/:id', (req, res) => {
 
   let Id = req.params.planet
 
@@ -41,7 +42,7 @@ router.get('/planets/:planet', (req, res) => {
 
 router.get('/planets/edit/:planet', (req, res) => {
 
-  let Id = req.params.planet
+  let Id = req.params.id
 
   fs.readFile('./data/planetinfo.json', 'utf8', (err, data) => {
     if (err) console.log(err)
@@ -49,16 +50,17 @@ router.get('/planets/edit/:planet', (req, res) => {
     let planetDetails = JSON.parse(data)
     console.log(planetDetails)
 
-    let single = planetDetails.planets.find((item) => item.planet == Id)
+    let single = planetDetails.planets.find((item) => item.id == Id)
+
     console.log(single)
     res.render('planets/edit', single)
   })
 })
 
 
-router.post('/planets/edit/:planet', (req, res) => {
+router.post('/planets/edit/:id', (req, res) => {
 
-  let Id = req.params.planet
+  let Id = req.params.id
 
   let newData = req.body
   console.log("body", newData)
