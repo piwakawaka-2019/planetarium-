@@ -72,7 +72,7 @@ router.post('/planets/edit/:planet', (req, res) => {
     let planetDetails = JSON.parse(data)
     let single = planetDetails.planets.find((item) => item.planet == Id)
 
-    single.planet = newData.planet
+    // single.planet = newData.planet
     single.moons = newData.moons
     single.diameter = newData.diameter
     single.distanceFromSun = newData.distanceFromSun

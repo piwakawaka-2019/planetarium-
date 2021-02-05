@@ -1,0 +1,137 @@
+
+html {
+  cursor: url('./images/rocket.png'), auto;
+}
+body {
+  /* font-family: 'Bungee Shade', cursive; */
+  font-family: 'Press Start 2P', cursive;
+  background-image: url('./images/bg.jpg');
+  background-color: black;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+h1:hover {
+  cursor: url('./images/rocket.png'), auto;
+
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  color: white
+
+}
+
+.footer {
+  background-color: rgb(43, 226, 171);
+  padding: 20px;
+  position: fixed; bottom: 0; right: 0;
+}
+
+.planet {
+  display: inline-block;
+  margin: 10px;
+  max-width: 200px;
+}
+.planet:hover {
+  cursor: url('./images/astronaut.png'), auto;
+}
+
+.sun {
+  display: inline-block;
+  margin: 10px;
+  max-width: 350px;
+  position: relative; top: 100px;
+}
+
+.Mercury {
+  max-width: 70px;
+}
+
+.Venus {
+  max-width: 100px;
+}
+
+.Earth {
+  max-width: 120px;
+}
+
+.Mars {
+  max-width: 90px;
+}
+
+
+.Jupiter {
+  max-width: 190px;
+  position: relative; top: 30px;
+}
+
+.Saturn {
+  max-width: 270px;
+  position: relative; top: 10px;
+}
+
+.Uranus {
+  max-width: 140px;
+}
+
+.Neptune {
+  max-width: 120px;
+}
+
+.Pluto {
+  max-width: 30px;
+  position: relative; bottom: 30px;
+}
+
+.profilePlanet {
+  display: inline-block;
+  max-width: 900px;
+  position: absolute;
+}
+
+.content {
+  display: inline;
+  position: absolute; bottom: 400px; left: 900px;
+  color: white;
+  font-size:30px;
+}
+
+li {
+  font-size: 20px;
+}
+
+button {
+  display: inline;
+  position: absolute; bottom: 250px; left: 1150px;
+  background-color: white;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size:30px;
+  padding: 10px 13px 10px 13px;
+
+}
+
+button:hover{
+  cursor: url('./images/rocket.png'), auto;
+}
+
+form {
+  color: white;
+  text-align: center;
+  margin: 150px;
+
+}
+
+input {
+  font-size: 16px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px;
+  margin: 20px;
+}
+
